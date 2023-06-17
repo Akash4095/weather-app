@@ -19,7 +19,7 @@ const TempApp = () => {
 
     return (
         <>
-           <h1 style={{marginLeft:"25%"}}>Weather Report</h1>
+           <h1 style={{marginLeft:"20%"}}>Weather Report</h1>
             <div className='box'>
                 <div className="inputData">
                     <input
