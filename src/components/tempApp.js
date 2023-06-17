@@ -19,19 +19,21 @@ const TempApp = () => {
 
     return (
         <>
+           <h1 style={{marginLeft:"25%"}}>Weather Report</h1>
             <div className='box'>
                 <div className="inputData">
                     <input
                         type='search'
                         className='inputField'
+                        placeholder='Enter City'
                         // value={search}
                         onChange={(e) => { setSearch(e.target.value) }}
                     />
                 </div>
-                <h1>Weather Report</h1>
+             
                 {
                     !city ? (
-                        <p>No Data Found</p>
+                        <p style={{marginLeft:"26%", marginTop:"10%"}}>No Data Found</p>
                     ) :
                         <div className="info">
                             <h2>{search}</h2>
